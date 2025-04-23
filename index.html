@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jewelry Fashion</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/x-icon" href="image/jewelry1.png">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+
+    /* Progress Bar */
+    #progressBar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 0%;
+      height: 6px;
+      background-color: gold;
+      z-index: 99;
+    }
+
+    h1, h2 {
+      background-color: #212f3c;
+      color: gold;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .gallery {
+      border: 2px solid gold;
+      margin: 10px;
+      transition: 0.3s;
+    }
+
+    .gallery:hover {
+      transform: scale(1.03);
+      border-color: #ffcc00;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: auto;
+    }
+
+    .desc {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .responsive {
+      padding: 0 6px;
+      float: left;
+      width: 24.99999%;
+    }
+
+    @media only screen and (max-width: 700px) {
+      .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+      }
+    }
+
+    @media only screen and (max-width: 500px) {
+      .responsive {
+        width: 100%;
+      }
+    }
+
+    .clearfix::after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+    marquee img {
+      vertical-align: middle;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #212f3c;
+      color: gold;
+    }
+
+    footer img {
+      max-width: 200px;
+      margin: 10px auto;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Progress Bar -->
+<div id="progressBar"></div>
+
+<!-- Header -->
+<marquee behavior="slide" direction="up" scrollamount="1">
+  <img src="image/banner.jpg" alt="Banner" style="width:100%;">
+</marquee>
+
+<h1><marquee behavior="scroll" direction="right" scrollamount="8">
+  <img src="Image/gold.png" alt="Logo" style="width:80px;height:60px;">
+  <em>Cambodia National Gemstone</em>
+</marquee></h1>
+
+<a href="https://goldprice.org/">Cambodia Natural Gemstones</a>
+
+<p>
+  Our team of design consultants guides you through each step of designing the perfect ring.
+  Get expert advice and guidance on your diamond or gemstone choice and ring design.
+</p>
+
+<h2><img src="image/gold.png" alt="Gold Icon" style="width:40px;height:40px;"> Gold 9999</h2>
+<p>Gold Cast Bar 1 Kg (999.9), Gold Grain 1000 Grams (995.0), Pure gold has 24 carats with a fineness of 999.9.</p>
+
+<div style="text-align:center">
+  <h2>Cambodia Gold 99.99</h2>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/gold1.jpg">
+      <img src="image/gold1.jpg" alt="Gold Image">
+    </a>
+    <div class="desc">Natural Cambodia Mine</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/gold2.jpg">
+      <img src="image/gold2.jpg" alt="Gold 9999">
+    </a>
+    <div class="desc">Gold 9999</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/gold3.jpg">
+      <img src="image/gold3.jpg" alt="Natural Gold">
+    </a>
+    <div class="desc">Natural Gold</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/gold4.jpg">
+      <img src="image/gold4.jpg" alt="Gold Cambodia">
+    </a>
+    <div class="desc">Gold Made in Cambodia</div>
+  </div>
+</div>
+
+<p>
+  Our team of design consultants guides you through each step of designing the perfect ring.
+  Get expert advice and guidance on your diamond or gemstone choice and ring design.
+</p>
+
+<h2><img src="image/diamond.png" alt="Gold Icon" style="width:40px;height:40px;"> Natural diamond</h2>
+<p>Most natural diamonds have ages between 1 billion and 3.5 billion years. Most were formed at depths between 150 and 250 kilometres (93 and 155 mi) Natural Diamonds is the destinationfor all things natural diamonds.
+   Get diamond style & engagement ring inspiration
+</p>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/diamond1.jpg">
+      <img src="image/diamond1.jpg" alt="Pink Diamond">
+    </a>
+    <div class="desc">Natural Pink Diamond</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/diamond2.jpg">
+      <img src="image/diamond2.jpg" alt="Blue Diamond">
+    </a>
+    <div class="desc">Natural Brown Diamond</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/diamond3.jpg">
+      <img src="image/diamond3.jpg" alt="Blue Diamond">
+    </a>
+    <div class="desc">Natural Blue Diamond</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/diamond4.jpg">
+      <img src="image/diamond4.jpg" alt="Diamond Image">
+    </a>
+    <div class="desc">Natural silver Diamond</div>
+  </div>
+</div>
+
+<p>
+  .
+</p>
+
+<h2><img src="image/ring.png" alt="ring Icon" style="width:40px;height:40px;"> Natural diamond</h2>
+<p>Diamond rings, particularly engagement rings, symbolize eternal love and commitment. Diamonds are known for their durability and brilliance, reflecting the strength and purity of a relationship.
+   They are a popular choice for engagement rings because they represent a lasting bond and a promise of forever. 
+</p>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/ring1.jpg">
+      <img src="image/ring1.jpg" alt="ring Image">
+    </a>
+    <div class="desc">Natural Cambodia Mine</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/ring2.jpg">
+      <img src="image/ring2.jpg" alt="ring Image">
+    </a>
+    <div class="desc">Natural Pailin Sapphier</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/ring3.jpg">
+      <img src="image/ring3.jpg" alt="ring Image">
+    </a>
+    <div class="desc">Natural Pailin Rubby</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/ring4.jpg">
+      <img src="image/ring4.jpg" alt="ring Image">
+    </a>
+    <div class="desc">Gold 75% Ring</div>
+  </div>
+</div>
+
+<p>
+  .
+</p>
+
+<h2><img src="image/earring.png" alt="earring Icon" style="width:40px;height:40px;"> Earrings </h2>
+<p>Earrings are jewelry that can be worn on one's ears. Earrings are commonly worn with an earlobe piercing[1] or another external part of the ear, or by some other means, such as stickers or clip-ons. 
+  Earrings have been worn across multiple civilizations and historic periods, often carrying a cultural significance. 
+</p>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/earring1.jpg">
+      <img src="image/earring1.jpg" alt="earring Image">
+    </a>
+    <div class="desc">Cambodian Necklace</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/earring2.jpg">
+      <img src="image/earring2.jpg" alt="earring Image">
+    </a>
+    <div class="desc">New Design Ear Rings</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/earring3.jpg">
+      <img src="image/earring3.jpg" alt="earring Image">
+    </a>
+    <div class="desc">blue Ear Rings For Lady</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/earring4.jpg">
+      <img src="image/earring4.jpg" alt="earring Image">
+    </a>
+    <div class="desc">Old Style Ear Rings</div>
+  </div>
+ </div> 
+
+ <div style="text-align:center">
+  <h2> .... </h2>
+</div>
+ <h2><img src="image/necklace.png" alt="ring Icon" style="width:40px;height:40px;"> Necklaces collection</h2>
+
+ <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/necklace1.jpeg">
+      <img src="image/necklace1.jpeg" alt="necklace Image">
+    </a>
+    <div class="desc">Cambodian Necklace</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/necklace2.jpg">
+      <img src="image/necklace2.jpg" alt="earring Image">
+    </a>
+    <div class="desc">New Design Ear Rings</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/necklace3.jpg">
+      <img src="image/necklace3.jpg" alt="necklace Image">
+    </a>
+    <div class="desc">Ear Rings For Lady</div>
+  </div>
+</div>
+ 
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/necklace4.jpg">
+      <img src="image/necklace4.jpg" alt="necklace Image">
+    </a>
+    <div class="desc">Old Style Ear Rings</div>
+  </div>
+</div>
+
+<div style="clear: both;"></div>
+
+<h2><img src="image/bracelet.png" alt="bracelet Icon" style="width:40px;height:40px;"> Bracelet</h2>
+<p>Find sterling silver bracelets and cuffs with gemstones at Sonara Jewelry. Our Competitive Pricing Strategy on Our Wholesale Sterling Silver Jewelry Will Not Be Beat. Wholesale Jewelry. Excellent Quality Diamond. Same Day 2-day Shipping. Diamond District LA. Styles: Opal Jewelry </p>
+
+<div style="text-align:center">
+  <h2>Bracelets </h2>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/bracelet1.jpg">
+      <img src="image/bracelet1.jpg" alt="bracelet Image">
+    </a>
+    <div class="desc"> Gold 99 Bracelet </div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/bracelet2.jpg">
+      <img src="image/bracelet2.jpg" alt="bracelet Image">
+    </a>
+    <div class="desc">Bracelet Pailin Sapphier</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/bracelet3.jpg">
+      <img src="image/bracelet3.jpg" alt="bracelet Image">
+    </a>
+    <div class="desc">Bracelet Pailin Rubby</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/Bracelet4.jpg">
+      <img src="image/Bracelet4.jpg" alt="bracelet Image">
+    </a>
+    <div class="desc">Bracelet Diamond</div>
+  </div>
+</div>
+
+<div style="clear: both;"></div>
+
+<h2><img src="image/anklet.png" alt="anklet Icon" style="width:40px;height:40px;"> Anklet</h2>
+<p>Some of the popular anklets for women available on Etsy include: anklets for women sterling silver,
+   anklets for women boho, anklets for women beach, toe rings
+</p>
+
+<div style="text-align:center">
+  <h2>Anklet </h2>
+</div>
+
+ <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/anklet1.jpg">
+      <img src="image/anklet1.jpg" alt="anklet Image">
+    </a>
+    <div class="desc">Gold Anklet for Kids</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/anklet2.jpg">
+      <img src="image/anklet2.jpg" alt="anklet Image">
+    </a>
+    <div class="desc">Cambodia Anklet for Lady</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/anklet3.jpg">
+      <img src="image/anklet3.jpg" alt="anklet Image">
+    </a>
+    <div class="desc">Gold Anklet Women</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="image/anklet4.jpg">
+      <img src="image/anklet4.jpg" alt="anklet Image">
+    </a>
+    <div class="desc">anklet 75% Ring</div>
+  </div>
+</div>
+
+
+<!-- Scroll Progress Script -->
+<script>
+  window.onscroll = function () {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("progressBar").style.width = scrolled + "%";
+  };
+</script>
+
+</body>
+</html>
+</body>
+</html>
+</section>
+<section>
+  <footer>
+    <p>Want to <b>Donate</b> click on QR below👇</p>
+    <a target="_blank" href="https://pay.ababank.com/KuYbf2aLhuc1BzG36">
+      <img src="Image/QR.jpg" alt="ABA QR Code" onerror="this.src='placeholder.jpg';">
+    </a>
+    <p>Tel: 078886016 | Telegram:<b>@Wesnies</b></p>
+    <p>Made in Cambodia | Jewelry Fashion Shop</p>
+  </footer>
+  </section>
+</body>
